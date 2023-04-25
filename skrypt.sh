@@ -40,6 +40,7 @@ elif [[ "$1" == "--help" ]]; then
         echo "--error: Dziala jak logs"
         echo "--error -e 30: Wyswietla komunikat (nie dziala)"
         echo "--error [x]: Dziala jak logs [x]"
+        echo "--init: klonuje całe repozytorium do katalogu w którym został uruchomiony oraz ustawia ścieżkę w zmiennej środowiskowej PATH"
     elif [[ "$2" != "-h" ]]; then
         echo "zla flaga"
     fi
